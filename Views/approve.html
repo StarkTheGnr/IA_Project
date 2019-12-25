@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Login</title>
+</head>
+
+<body>
+    <script src="./js/main.js"></script>
+    <div class="loginContainer">
+        <h2 class="loginHeader">HR Approval</h2>
+        <h3 class="loginHeader">Welcome, <label id="nameLbl">test@hotmail.com</label></h3>
+        
+        <label class="fieldLabel">Search:</label>
+        <input id="searchTxt" type="text" placeholder="search">
+        
+        <br>
+        
+        <input class="homee" type="submit" value="Exams" onclick="ShowExams()">
+        
+        <br><br>
+        
+        <div id="examContainer">
+            
+        </div>
+        
+        <br><br>
+        <input id="examChangeTxt" class="exams" type="text" placeholder="id1,id2,id3(example: 3,7,2)">
+        
+        <br><br>
+        <input id="deadlineTxt" class="exams" type="text" placeholder="deadline(yyyy-mm-dd)">
+        
+        <br><br>
+        <input id="sequenceCheck" type="checkbox" name="seq">
+        <label for="seq">Use sequence</label>
+        
+        <br><br>
+        
+        <input type="submit" value="Approve" onclick="Approve()">
+    </div>
+</body></html>
+<link rel="stylesheet" href="./css/main.css">
+<script src="./js/loaded.js"></script>

@@ -1,0 +1,59 @@
+body
+{
+    text-align: center;
+}
+
+.inputField
+{
+    margin: 5px;    
+}
+
+.fieldLabel
+{
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+}
+
+.loginContainer
+{
+    display: inline-block;
+    padding: 20px;
+    width: auto;
+    border: 1px solid;
+}
+
+.loginHeader
+{
+    display: block;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding: 0px;
+    text-align: center;
+}
+
+.loginBtn
+{
+    display: block;
+    margin-top: 15px;
+    margin-left: 40%;
+}
+
+.registerParagraph
+{
+    font-size: 13px;
+    text-align: center;
+}
+
+.listPosition
+{
+    display: inline-block;
+    margin: 10px;
+    margin-left: 5px;
+}
+
+.cLink
+{
+    margin: 10px;
+}

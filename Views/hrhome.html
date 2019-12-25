@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Homo</title>
+</head>
+
+<body>
+    <script src="./js/main.js"></script>
+    <div class="loginContainer" style="text-align: center">
+        <h2 class="loginHeader">HR Home</h2>
+        <h3 class="loginHeader">Welcome, <label id="nameLbl">test@hotmail.com</label></h3>
+        
+        <label class="fieldLabel">Search:</label>
+        <input id="searchTxt" type="text" placeholder="search">
+        
+        <br>
+        
+        <label class="candidates" hidden>Search:</label>
+        <input id="searchTxt" class="candidates" hidden type="text" placeholder="search">
+        
+        <br>
+        
+        <input class="homee" type="submit" value="Candidates" onclick="ShowCandidates()">
+        <input class="homee" type="submit" value="Exams" onclick="ShowExams()">
+        <input class="homee" type="submit" value="Questions" onclick="ShowQuestions()">
+        <input class="homee" type="submit" value="Answers" onclick="ShowAnswers()">
+        
+        <div id="examContainer">
+            
+        </div>
+        <input id="examIdTxt" class="exams" hidden type="text" placeholder="ID">
+        <input id="examChangeTxt" class="exams" hidden type="text" placeholder="Add/Update">
+        <input class="exams" type="submit" hidden value="Add" onclick="AddExam()">
+        <input class="exams" type="submit" hidden value="Update" onclick="UpdateExam()">
+        <input class="exams" type="submit" hidden value="Delete" onclick="DeleteExam()">
+        
+        <div id="qContainer">
+            
+        </div>
+        <input id="qIdTxt" class="questions" hidden type="text" placeholder="ID">
+        <input id="qChangeTxt" class="questions" hidden type="text" placeholder="Add/Update">
+        <input id="qExamTxt" class="questions" hidden type="text" placeholder="Exam ID">
+        <input class="questions" type="submit" hidden value="Add" onclick="AddQuestion()">
+        <input class="questions" type="submit" hidden value="Update" onclick="UpdateQuestion()">
+        <input class="questions" type="submit" hidden value="Delete" onclick="DeleteQuestion()">
+        
+        <div id="aContainer">
+            
+        </div>
+        <input id="aIdTxt" class="answers" hidden type="text" placeholder="ID">
+        <input id="aChangeTxt" class="answers" hidden type="text" placeholder="Add/Update">
+        <input id="aQTxt" class="answers" hidden type="text" placeholder="question ID">
+        <input id="aCorrectTxt" class="answers" hidden type="text" placeholder="Correct? (0/1)">
+        <input class="answers" type="submit" hidden value="Add" onclick="AddAnswer()">
+        <input class="answers" type="submit" hidden value="Update" onclick="UpdateAnswer()">
+        <input class="answers" type="submit" hidden value="Delete" onclick="DeleteAnswer()">
+        
+        <input class="candidates" type="submit" value="Back" onclick="ShowHome()" hidden>
+        <div id="linkContainer">
+        </div>
+        <input class="candidates" type="submit" value="Back" onclick="ShowHome()" hidden>
+        
+        <p id="foundEmail" class="registerParagraph"></p>
+    </div>
+</body></html>
+<link rel="stylesheet" href="./css/main.css">
+<script src="./js/loaded.js"></script>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Register</title>
+</head>
+
+<body>
+    <script src="./js/main.js"></script>
+    <div class="loginContainer">
+        <h2 class="loginHeader">Candidate Register</h2>
+        
+        <label class="fieldLabel">Email:</label>
+        <input id="emailField" class="inputField" type="text" name="email">
+        <input class="loginBtn" type="submit" value="Check Email" onclick="checkEmail();">
+        <p id="foundEmail" class="registerParagraph"></p>
+
+        <label class="fieldLabel">Password:</label>
+        <input id="passwordField" class="inputField" type="password" name="password">
+        
+        <br>
+        
+        <label class="fieldLabel">Telephone:</label>
+        <input id="phoneField" class="inputField" type="text" name="phone">
+        
+        <br>
+        
+        <label class="fieldLabel">Position:</label>
+        <select id="positionList" class="listPosition" name="position">
+            
+        </select>
+        
+        <p class="registerParagraph">or click here to <a href="candidatelogin.html">login</a></p>
+        <input class="loginBtn" type="submit" value="Register" onclick="Register();">
+        <p id="registerInfo" class="registerParagraph"></p>
+    </div>
+</body></html>
+<link rel="stylesheet" href="./css/main.css">
